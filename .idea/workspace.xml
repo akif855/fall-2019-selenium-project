@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="845954aa-8bf0-45ec-98c8-0be640f59e3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day4_xpath/ClickVsSubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day4_xpath/GetArttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day4_xpath/GetAttriibute2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day4_xpath/PracticeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day4_xpath/XpathPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day4_xpath/getText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/WebDriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_locators2/FakerPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_locators2/FakerPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_locators2/GetAttributeValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_locators2/GetAttributeValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_locators2/LinkText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_locators2/LinkText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_locators2/VerifyErrorMassage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_locators2/VerifyErrorMassage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/officeHours/SeleniumOH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/officeHours/SeleniumOH2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5_more_xpath/ClassNameExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5_more_xpath/ClassNameExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day4_xpath/textMethodOfXpath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day4_xpath/textMethodOfXpath.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,18 +39,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.textMethodOfXpath">
-    <configuration name="ClickVsSubmit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day4_xpath.ClickVsSubmit" />
+  <component name="RunManager" selected="Application.ClassNameExample">
+    <configuration name="ClassNameExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day5_more_xpath.ClassNameExample" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day4_xpath.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day5_more_xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAttriibute2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day4_xpath.GetAttriibute2" />
+    <configuration name="XpathDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day5_more_xpath.XpathDemo" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day4_xpath.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day5_more_xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassNameExample" />
+        <item itemvalue="Application.XpathDemo" />
         <item itemvalue="Application.textMethodOfXpath" />
         <item itemvalue="Application.XpathPractice" />
         <item itemvalue="Application.GetArttribute" />
-        <item itemvalue="Application.GetAttriibute2" />
-        <item itemvalue="Application.ClickVsSubmit" />
       </list>
     </recent_temporary>
   </component>
@@ -153,22 +143,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="170" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583600846266" />
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1583677286712">
+    <state width="1493" height="157" key="GridCell.Tab.0.bottom" timestamp="1583756899291">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583677286712" />
-    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1583677286708">
+    <state width="1536" height="196" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1583700185743">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583677286708" />
-    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1583677286708">
+    <state width="1536" height="196" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1536.824@0.0.1536.824" timestamp="1583700185743" />
+    <state width="1493" height="157" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583756899291" />
+    <state width="1493" height="157" key="GridCell.Tab.0.center" timestamp="1583756899291">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583677286708" />
-    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1583677286712">
+    <state width="1536" height="196" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1583700185743">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583677286712" />
+    <state width="1536" height="196" key="GridCell.Tab.0.center.inPresentationMode/0.0.1536.824@0.0.1536.824" timestamp="1583700185742" />
+    <state width="1493" height="157" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583756899291" />
+    <state width="1493" height="157" key="GridCell.Tab.0.left" timestamp="1583756899291">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1536" height="196" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1583700185742">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1536" height="196" key="GridCell.Tab.0.left.inPresentationMode/0.0.1536.824@0.0.1536.824" timestamp="1583700185742" />
+    <state width="1493" height="157" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583756899291" />
+    <state width="1493" height="157" key="GridCell.Tab.0.right" timestamp="1583756899291">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1536" height="196" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1583700185743">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1536" height="196" key="GridCell.Tab.0.right.inPresentationMode/0.0.1536.824@0.0.1536.824" timestamp="1583700185743" />
+    <state width="1493" height="157" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583756899291" />
     <state x="279" y="0" key="SettingsEditor" timestamp="1583276433730">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
